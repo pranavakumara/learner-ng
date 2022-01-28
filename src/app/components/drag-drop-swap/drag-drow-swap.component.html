@@ -1,0 +1,6 @@
+<div class="parent">
+    <div class="note" *ngFor="let note of notes;let position = index" learnerDragDropSwap [elemPosition]='position'
+        [list]='notes' (returnUpdatedList)='returnUpdatedList($event)'>
+        {{note.name}}
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.parent {
+    width: 700px;
+    height: 400px;
+    background-color: gray;
+
+    .note {
+        background-color: greenyellow;
+        width: 100px;
+        height: 100px;
+        border-color: goldenrod;
+        border-style: solid;
+        border-width: 2px;
+        float: left;
+        clear: none;
+        margin-left: 10px;
+    }
+}
